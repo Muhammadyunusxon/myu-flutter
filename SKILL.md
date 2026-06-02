@@ -210,4 +210,4 @@ Before writing ANY of the following, read the relevant file first — do not ski
 - DI, HttpService, LocalStorage, Navigation, AppConstants: `READ references/infrastructure.md`
 - Tests (bloc_test, mocktail): `READ references/testing.md`
 - UI, CustomStyle, screenutil, Freezed models, file upload, localization: `READ references/ui.md`
-- Commit message yoki PR description yozish: `READ references/conventions.md`
+- Commit message or PR description: `READ references/conventions.md`
