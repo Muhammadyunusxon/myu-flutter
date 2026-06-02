@@ -1,11 +1,9 @@
 ---
 name: myu-flutter
 description: >
-  Personal Flutter/Dart coding standards for Muhammad Yunus — Mobile Lead developer (iOS, Android, Flutter Desktop).
-  Auto-trigger whenever the user is writing, reviewing, generating, or discussing Flutter or Dart code, creating new
-  features, fixing bugs, or setting up a Flutter project. Apply these conventions silently and consistently without
-  asking — they override any generic Flutter advice. Also trigger on requests like "create a Bloc", "add a repository",
-  "write a test", "create a model", "set up DI", or any task that touches the project's architecture layers.
+  Muhammadyunusxon's personal Flutter/Dart coding standards (iOS, Android, Flutter Desktop).
+  Use for any Flutter or Dart task: writing code, Bloc, repository, model, test, DI, UI, navigation, file upload.
+  Overrides generic Flutter advice. Trigger on "create a Bloc", "add a repo", "write a test", "set up DI", or any Flutter/Dart work.
 ---
 
 # myu-flutter — Personal Flutter Standards
@@ -197,13 +195,11 @@ Style: English, verb/noun phrase (no "This class..."), max 3 lines class-level, 
 
 ---
 
-## Reference files
+## Reference files — ALWAYS load before writing code
 
-Load these when the task needs detailed patterns:
+Before writing ANY of the following, read the relevant file first — do not skip:
 
-| File | Load when |
-|---|---|
-| `references/bloc.md` | Writing or reviewing Bloc (State, Event, handler, BlocBuilder/Listener/Consumer) |
-| `references/infrastructure.md` | DI setup, HttpService, LocalStorage, Navigation, AppConstants |
-| `references/testing.md` | Writing tests (bloc_test, mocktail) |
-| `references/ui.md` | UI widgets, CustomStyle, screenutil, Freezed models, file upload, localization |
+- Bloc (State, Event, handler, BlocBuilder/Listener/Consumer): `READ references/bloc.md`
+- DI, HttpService, LocalStorage, Navigation, AppConstants: `READ references/infrastructure.md`
+- Tests (bloc_test, mocktail): `READ references/testing.md`
+- UI, CustomStyle, screenutil, Freezed models, file upload, localization: `READ references/ui.md`
