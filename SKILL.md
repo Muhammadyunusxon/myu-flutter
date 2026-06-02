@@ -8,8 +8,20 @@ description: >
 
 # myu-flutter — Personal Flutter Standards
 
-These are Muhammad Yunus's personal conventions extracted from real projects (damda_seller, demand_seller, cmed, etc.).
-Apply them to every Flutter task without being asked. When a project has its own `CLAUDE.md`, that wins on any conflict.
+## When this skill loads — do this first
+
+1. **Identify the task type** from the user's request:
+   - Bloc / State / Event → `READ references/bloc.md` before writing anything
+   - DI / HttpService / LocalStorage / Navigation → `READ references/infrastructure.md`
+   - Test → `READ references/testing.md`
+   - UI / widget / model / upload / localization → `READ references/ui.md`
+   - Commit message / PR description → `READ references/conventions.md`
+
+2. **Check the approved packages list** (below) before suggesting any dependency.
+
+3. **Apply all conventions silently** — don't explain what you're doing unless asked.
+
+> Project's own `CLAUDE.md` wins on any conflict with this skill.
 
 ---
 
