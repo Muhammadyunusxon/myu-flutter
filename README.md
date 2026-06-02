@@ -1,5 +1,7 @@
 # myu-flutter
 
+[![skills.sh](https://skills.sh/b/Muhammadyunusxon/myu-flutter)](https://skills.sh/Muhammadyunusxon/myu-flutter)
+
 A Claude skill containing personal Flutter/Dart coding standards for **Muhammadyunusxon** — Mobile Lead developer (iOS, Android, Flutter Desktop).
 
 Auto-triggers whenever you are writing, reviewing, or discussing Flutter/Dart code. All conventions are extracted from real production projects.
@@ -8,21 +10,22 @@ Auto-triggers whenever you are writing, reviewing, or discussing Flutter/Dart co
 
 ## Install
 
-### Option 1 — Download `.skill` file
+### Option 1 — CLI (recommended)
+
+```bash
+npx skills add Muhammadyunusxon/myu-flutter
+```
+
+### Option 2 — Download `.skill` file
 
 1. Go to [Releases](https://github.com/Muhammadyunusxon/myu-flutter/releases) and download `myu-flutter.skill`
 2. Open **Claude Desktop** → Settings → Skills
 3. Drag and drop `myu-flutter.skill` into the skills panel
 
-### Option 2 — Clone and install manually
+### Option 3 — Clone manually
 
 ```bash
 git clone https://github.com/Muhammadyunusxon/myu-flutter.git
-```
-
-Then copy into your Claude skills folder:
-
-```bash
 cp -r myu-flutter ~/.claude/skills/myu-flutter
 ```
 
