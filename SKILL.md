@@ -146,45 +146,6 @@ Use: `AppLogger.e('getOrder failure', error: e)` in catch blocks. Silent in rele
 
 ---
 
-## Commit messages
-
-Follow Conventional Commits: `<type>(<scope>): <summary>`
-
-| Type | Use |
-|---|---|
-| `feat` | New feature |
-| `fix` | Bug fix |
-| `refactor` | No behavior change |
-| `style` | Formatting only |
-| `chore` | Build / deps / config |
-| `test` | Tests |
-| `docs` | Docs only |
-| `perf` | Performance |
-
-Rules: lowercase, imperative mood, no period, max 72 chars. Example: `feat(auth): add biometric login`.
-Breaking change: add `!` — `refactor(api)!: rename response models`.
-Never: `fix bug`, `update`, `changes`, `wip`.
-
----
-
-## PR description template
-
-```markdown
-## What
-## Why
-## Changes
--
-## Screenshots / recordings
-## Checklist
-- [ ] flutter analyze clean
-- [ ] Tested on iOS
-- [ ] Tested on Android
-- [ ] No hardcoded strings / magic values
-- [ ] No print() statements
-```
-
----
-
 ## Documentation
 
 **Write dartdoc on:** Bloc classes (scope + lifecycle), non-obvious event handlers, custom exceptions/interceptors, non-trivial parameters, constant groups.
@@ -237,3 +198,4 @@ Before writing ANY of the following, read the relevant file first — do not ski
 - DI, HttpService, LocalStorage, Navigation, AppConstants: `READ references/infrastructure.md`
 - Tests (bloc_test, mocktail): `READ references/testing.md`
 - UI, CustomStyle, screenutil, Freezed models, file upload, localization: `READ references/ui.md`
+- Commit message yoki PR description yozish: `READ references/conventions.md`
