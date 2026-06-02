@@ -195,6 +195,40 @@ Style: English, verb/noun phrase (no "This class..."), max 3 lines class-level, 
 
 ---
 
+## Approved packages
+
+Use only packages from this list. If a new package is needed, say so and explain why — don't add silently.
+
+| Package | Purpose |
+|---|---|
+| `dio` | HTTP client |
+| `flutter_bloc` | State management |
+| `get_it` | Dependency injection |
+| `freezed` / `freezed_annotation` | Sealed classes (State, Event, ApiResult) |
+| `json_annotation` | JSON serialization |
+| `shared_preferences` | Key-value local storage |
+| `flutter_secure_storage` | Encrypted token storage |
+| `connectivity_plus` | Network state |
+| `logger` | Logging via `AppLogger` |
+| `flutter_screenutil` | Responsive sizing |
+| `google_fonts` | Typography (NunitoSans via CustomStyle) |
+| `flutter_svg` | SVG assets |
+| `cached_network_image` | Network image caching |
+| `lottie` | JSON animations |
+| `remixicon` | Icon set |
+| `intl` | Date / number formatting |
+| `pull_to_refresh` | Pull-to-refresh + load-more |
+| `auto_size_text` | Auto-scaling text |
+| `mask_text_input_formatter` | Phone / card input masking |
+| `url_launcher` | Open URLs, phone, email |
+| `permission_handler` | Runtime permissions |
+| `webview_flutter` | In-app web view |
+| `flutter_native_splash` | Native splash screen |
+| `bloc_test` | Bloc unit testing |
+| `mocktail` | Mocking in tests |
+
+---
+
 ## Reference files — ALWAYS load before writing code
 
 Before writing ANY of the following, read the relevant file first — do not skip:
